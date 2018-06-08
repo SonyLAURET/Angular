@@ -6,6 +6,7 @@ import { FormationComponent } from './formation/formation.component';
 import { InterpolateComponent } from './interpolate/interpolate.component';
 import { BindingComponent } from './binding/binding.component';
 import { VariableComponent } from './variable/variable.component';
+import { DirectivesComponent } from './directives/directives.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { VariableComponent } from './variable/variable.component';
     FormationComponent,
     InterpolateComponent,
     BindingComponent,
-    VariableComponent
+    VariableComponent,
+    DirectivesComponent
   ],
   imports: [
     BrowserModule
