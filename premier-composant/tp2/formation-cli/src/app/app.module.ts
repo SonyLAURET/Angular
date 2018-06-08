@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { FormationComponent } from './formation/formation.component';
 import { InterpolateComponent } from './interpolate/interpolate.component';
 import { BindingComponent } from './binding/binding.component';
+import { VariableComponent } from './variable/variable.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FormationComponent,
     InterpolateComponent,
-    BindingComponent
+    BindingComponent,
+    VariableComponent
   ],
   imports: [
     BrowserModule
