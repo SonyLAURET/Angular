@@ -1,0 +1,10 @@
+<div (mouseover)="mouseOver()" (mouseout)="mouseOut()">
+<p [hidden]="isHidden">
+    Binding hidden property
+</p>
+<p [style.color]="color" > It's red or green</p>
+<button (click)="visibilityClik()">Caché</button>
+<p [hidden]="isNotHidden">pas caché</p>
+
+<p [hidden]='reveal'> text</p>
+</div>
