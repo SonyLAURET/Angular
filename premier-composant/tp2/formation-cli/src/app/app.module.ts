@@ -7,6 +7,7 @@ import { InterpolateComponent } from './interpolate/interpolate.component';
 import { BindingComponent } from './binding/binding.component';
 import { VariableComponent } from './variable/variable.component';
 import { DirectivesComponent } from './directives/directives.component';
+import { StyleComponent } from './style/style.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { DirectivesComponent } from './directives/directives.component';
     InterpolateComponent,
     BindingComponent,
     VariableComponent,
-    DirectivesComponent
+    DirectivesComponent,
+    StyleComponent
   ],
   imports: [
     BrowserModule
